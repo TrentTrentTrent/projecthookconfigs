@@ -6,7 +6,7 @@ configlinks = {
 --
 function configloader:add(name,link,actualname)
     if configlinks[actualname] ~= nil then
-        writefile("projecthook/"..name..".txt",game:HttpGet(configlinks[actualname]))
+        writefile("projecthook/Config|"..name..".txt",game:HttpGet(configlinks[actualname]))
     end
 end
 function configloader:delete(name)
