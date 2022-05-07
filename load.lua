@@ -4,9 +4,9 @@ configlinks = {
     ragenobow = "https://raw.githubusercontent.com/TrentTrentTrent/projecthookconfigs/main/configs/ragenobow.txt"
 }
 --
-function configloader:add(name,link,actualname)
+function configloader:add(name,actualname)
     if configlinks[actualname] ~= nil then
-        writefile("projecthook/Config|"..name..".txt",game:HttpGet(configlinks[actualname]))
+        writefile("projecthook/"..name..".txt",game:HttpGet(configlinks[actualname]))
     end
 end
 function configloader:delete(name)
