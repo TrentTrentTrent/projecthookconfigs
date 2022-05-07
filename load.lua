@@ -12,3 +12,4 @@ end
 function configloader:delete(name)
     delfile("projecthook/"..name..".txt")
 end
+return configloader
