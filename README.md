@@ -5,12 +5,12 @@
 ```lua
 local name = "Config!Rage"
 --^^^edit if you want^^^
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/TrentTrentTrent/projecthookconfigs/main/load.lua'),true))():add(name,"rage")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TrentTrentTrent/projecthookconfigs/main/load.lua'))():add(name,"rage")
 ```
 ------------
 ##### Rage Without Bow
 ```lua
 local name = "Config!RageNoBow"
 --^^^edit if you want^^^
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/TrentTrentTrent/projecthookconfigs/main/load.lua'),true))():add(name,"ragenobow")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TrentTrentTrent/projecthookconfigs/main/load.lua'))():add(name,"ragenobow")
 ```
